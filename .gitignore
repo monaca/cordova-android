@@ -13,7 +13,6 @@ framework/test/org/apache/cordova/*.class
 framework/assets/www/.DS_Store
 framework/assets/www/cordova-*.js
 framework/assets/www/phonegap-*.js
-framework/libs
 example
 ./test
 test/bin
