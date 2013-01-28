@@ -736,7 +736,7 @@ public class CordovaWebView extends WebView {
                     String name = xml.getAttributeValue(null, "name");
                     String value = xml.getAttributeValue(null, "value");
 
-                    LOG.i("CordovaLog", "Found preference for %s=%s", name, value);
+//                    LOG.i("CordovaLog", "Found preference for %s=%s", name, value);
                     Log.d("CordovaLog", "Found preference for " + name + "=" + value);
 
                     // Save preferences in Intent
