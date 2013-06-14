@@ -40,6 +40,7 @@ import android.graphics.Color;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Display;
 import android.view.KeyEvent;
@@ -134,7 +135,7 @@ import android.widget.LinearLayout;
  *          ...
  *      </plugins>
  */
-public class DroidGap extends Activity implements CordovaInterface {
+public class DroidGap extends FragmentActivity implements CordovaInterface {
     public static String TAG = "DroidGap";
 
     // The webview for our app
